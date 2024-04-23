@@ -5,3 +5,4 @@ template/*
 *.swp
 __pycache__/
 *.pyc
+.ipynb_checkpoints/

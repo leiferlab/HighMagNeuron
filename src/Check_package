@@ -1,0 +1,37 @@
+
+
+To check if you have the packages, run following steps
+
+1. On della command line, type 
+
+cd /projects/LEIFER/communalCode/HighMagNeuron/src
+
+2. type
+source /projects/LEIFER/communalCode/HighMagNeuron/venv/bin/activate
+
+3. type
+python HighResFlow.py
+And then see if it complains about package missing.(check the bottom of this file about fixing)
+
+4. type
+python neuron_detect_hess.py 
+And see if it complains about package missing.
+
+5. type
+python Himag_cline.py
+And see if it complains about package missing. 
+
+
+
+
+
+
+For packages you might need to install
+
+1. First use the following virtual env by typing 
+
+source /projects/LEIFER/communalCode/HighMagNeuron/venv/bin/activate
+
+2. Then install some packages(some I noticed are as follows)
+e.g. opencv_contrib_python, shapely
+python -m pip install opencv_contrib_python
